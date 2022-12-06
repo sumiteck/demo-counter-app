@@ -4,6 +4,11 @@ pipeline{
     
     stages {
         
+         tools
+    {
+       maven "Maven"
+    }
+        
         stage('Git Checkout'){
             
             steps{
